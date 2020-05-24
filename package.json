@@ -1,0 +1,19 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chat app with mongodb",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "author": "Vivek Choudhary",
+  "license": "ISC",
+  "dependencies": {
+    "mongodb": "^3.5.7",
+    "mongoose": "^5.9.15",
+    "socket.io": "^2.3.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
